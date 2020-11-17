@@ -1,0 +1,386 @@
+/* 
+    Document   : stsheet
+    Created on : Nov 13, 2020, 12:20:23 AM
+    Author     : mm
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body { 
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   background-color: hsl(218, 28%, 13%);
+   margin: 0 0;
+   color: hsl(0, 0%, 100%);
+}
+h1,h3 { 
+   font-family: 'Raleway', sans-serif;
+   line-height: 1.5em;
+}
+.block1 p { 
+   line-height: 2em;
+}
+header{
+    
+    padding: 60px 20px 20px 50px;
+}
+header ul{
+    float: right;
+    
+}
+header ul li{
+   list-style-type: none;
+    float: left;
+    padding-right: 54px;
+}
+header ul li a{
+   cursor: pointer;
+}
+header ul li a:hover{
+  color: hsl(176, 68%, 64%);
+}
+.block1{
+   text-align: center;
+}
+.block1 img{
+   width: 43%;
+}
+.block1 h1{
+   padding: 15px 0px 10px 0px;
+}
+.block1 button{
+   width: 220px;
+    height: 45px;
+    border-radius: 35px 35px;
+    border: none;
+    background-color: hsl(198deg 79% 61%);
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+    transition: .5s;
+}
+.block1 button:hover{
+    background-color: hsl(176, 68%, 64%);
+    transform: scale(.9);
+}
+.block2 .container{
+    width: 80%;
+    margin: 11% 0 60px 10%;
+    
+}
+.block2 .container .content{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-bottom: 8%;
+    font-size: small;
+}
+.clear-fix{
+    clear: both;
+}
+.block3{
+    margin: 2%;
+}
+.block3 .block3-img{
+    margin-left: 4%;
+}
+.block3 .block3-content{
+    float: right;
+    width: 42%;
+    margin-top: 8%;
+}
+.block3 .block3-content h1{
+    font-size: xx-large;
+}
+.block3 .block3-content a{
+    color: hsl(176, 68%, 64%);
+    border-bottom: 1px solid;
+    padding-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+
+}
+.block3 .block3-content a:hover{
+    opacity: .2;
+}
+.block3 .block3-content a img{
+    position: absolute;
+    top: 3px;
+    padding-left: 7px;
+    border-bottom: 1px solid;
+    padding-bottom: 2px;
+
+}
+.block4  .block4-content{
+       background-color: hsl(217, 28%, 15%);
+    width: 25%;
+    padding: 2%;
+    float: left;
+    margin-left: 3%;
+    font-size: smaller;
+}
+.block4  {
+    position: relative;
+    margin: 10% 0% 20% 7%;
+    height: auto;
+        
+}
+.block4 .quotes {
+        width: 4%;
+    position: absolute;
+    top: -30px;
+    left: 28px;
+    z-index: -2;
+}
+.block4 .pro-img {
+       border-radius: 50% 50%;
+    width: 10%;
+    float: left;
+    margin-right: 10px;
+}
+
+.block4 .profile {
+        line-height: 1em;
+    margin-top: 29px;
+}
+.block4 .profile .psmall span {
+       font-weight: bold;
+       font-size: 11px;
+}
+.block4 .profile .psmall {
+       font-size: xx-small;
+}
+.float-mail {
+      width: 49%;
+    background-color: hsl(217, 28%, 15%);
+    text-align: center;
+    padding: 3% 7% 5% 7%;
+    margin-left: 20%;
+    margin-top: -144px;
+    position: absolute;
+     
+}
+.float-mail form {
+      margin-top: 50px;
+}
+.float-mail form input {
+       width: 60%;
+    height: 45px;
+    border-radius: 50px 50px;
+    border: solid 1px;
+    padding-left: 64px;
+    margin-left: -55px;
+    outline: none;
+}
+
+.float-mail form button{
+       width: 30%;
+    background-color: hsl(198, 60%, 50%);
+    height: 50px;
+    border-radius: 50px 50px;
+    border: solid 0px;
+    color: white;
+    margin-left: 31px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+}
+.float-mail form button:hover{
+       background-color: hsl(176, 68%, 64%);
+    transform: scale(.9);
+}
+footer{
+       background-color: hsl(216, 53%, 9%);
+       padding: 20% 0 10% 10%;
+       height: auto;
+    
+}
+
+footer .foo{
+width: 29%;
+    margin-left: 3%;
+    margin-top: 3%;
+    position: relative;      
+    
+}
+footer .foo img{
+position: absolute;
+    left: -40px;   
+    
+}
+footer .foo1{
+      float: left;
+    position: relative;
+    line-height: 2.5em;
+    margin-left: 40px;
+    
+}
+footer .foo1 ul{
+      list-style-type: none;
+    
+}
+footer .foo1 ul a{
+     cursor: pointer;
+    
+}
+footer .foo1 ul a:hover{
+    color: hsl(176, 68%, 64%);
+    
+}
+footer .foo1 img{
+       position: absolute;
+    left: -40px;   
+    top: 72px;
+}
+footer .foo1 .phone{
+       position: absolute;
+    left: -40px; 
+    top:24px;
+    
+}
+footer .container{
+     float: left;
+    margin-left: 42%;
+    margin-top: -7%;
+    
+}
+.fa {
+  padding: 12px;
+    font-size: 30px;
+    width: 12px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+}
+
+.fa:hover {
+   background-color: hsl(176, 68%, 64%);
+}
+@media (max-width:1205px){
+.block3 .block3-img{
+    width: 52%;
+}
+.block3 .block3-content h1{
+    font-size: large;
+}
+
+.float-mail {
+      width: 66%;
+       margin-left: 10%;
+}
+.block4  {
+   
+    margin: 20% 0% 30% 7%;  
+}
+.block4 .quotes { 
+    top: -12px;
+    left: 12px;
+}
+footer{
+       padding: 20% 0 10% 5%;   
+    
+}
+
+
+footer .foo1{
+    
+    margin-left: 10px;
+    
+}
+
+}
+@media (max-width:835px){
+    header img{
+    width: 25%;
+}
+header ul li{
+    padding-right: 14px;
+}
+    .block2 .container .content{
+    width: 100%;
+}
+    .block3 .block3-img{
+   width: 100%;
+}
+.block3 .block3-content{
+    width: 95%;
+}
+.block4 {
+    margin: 25% 0% 5% 7%;
+}
+.block4  .block4-content{
+   width: 70%;
+    margin-bottom: 7%;
+    
+}
+.float-mail {
+      width: 80%;
+    margin-left: 5%;
+    margin-top: 0;
+    position: initial;
+     
+}
+.float-mail form button{
+      width: 76%;
+    margin-top: 3%;
+    margin-left: -65px;
+}
+footer{
+       padding: 20% 0 10% 10%;
+    
+}
+
+footer .foo{
+    width: 88%;
+    font-size: x-large;
+}
+
+
+footer .foo1{
+      float: none;
+    padding-bottom: 20px;
+    
+}
+
+footer .container{
+     float: none;
+    margin-left: 0%;
+    margin-top: 0%;
+    
+}
+}
+@media(max-width:440px){
+    
+header ul{
+   margin: 0px;
+}
+header ul li{
+    padding-right: 9px;
+}
+.block1 {
+    font-size: smaller;
+    width: 80%;
+    margin-left: 10%;
+}
+footer .foo{
+    width: 88%;
+    font-size: smaller;
+}
+footer .foo img{
+position: absolute;
+    left: -20px;   
+    
+}
+footer .foo1 img{
+    left: -33px;   
+    top: 60px;
+}
+footer .foo1 .phone{
+    left: -30px; 
+    top:8px;
+    
+}
+}
